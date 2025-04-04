@@ -429,27 +429,5 @@ footer {
 footer p {
   text-align: center;
 }
-.container {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-@media (max-width: 768px) {
-  .some-element {
-    flex-direction: column;
-    text-align: center;
-    padding: 10px;
-  }
-}
-h1 {
-  font-size: 5vw; /* scales with screen size */
-}
-img {
-  max-width: 100%;
-  height: auto;
-}
 
 
